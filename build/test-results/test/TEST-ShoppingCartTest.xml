@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ShoppingCartTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-20T11:02:53" hostname="GABRIELLANAOMI" time="16.131">
+  <properties/>
+  <testcase name="AddProductSuccessTest" classname="ShoppingCartTest" time="16.131"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
