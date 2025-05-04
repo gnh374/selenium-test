@@ -1,5 +1,6 @@
 package facades;
 
+import components.ProductComponent;
 import org.openqa.selenium.WebDriver;
 import pages.*;
 
@@ -33,5 +34,13 @@ public class ShoppingCartFacade {
     public Long countTotalPrice(){
         CartPage cartPage = new CartPage(driver);
         return cartPage.countTotalPrice();
+    }
+    public boolean isBookExistOnCart(String id){
+        CartPage cartPage = new CartPage(driver);
+        ProductComponent product = cartPage.findBookInCart(id);
+        if(product != null){
+            return  true;
+        }
+        return false;
     }
 }
